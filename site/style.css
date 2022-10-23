@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 70%;
+}
+h1 {
+background-color : purple;
+color: white;
+}
+.black
+{
+	font-size: 130%;
+    color: yellow;
+    text-align: left;
+}
+#pic
+{
+    background-color: purple;
+    color: white;
+    width: 500px;
+}
+p{
+	color: white;
+}
+header  {
+	list-style: none;
+	font-size: 130%;
+
+}
+header a:link,header a:visited {
+text-decoration: none;
+background-color: purple;
+border: 1px solid blue;
+color: black;
+display: block;
+width: 200px;
+text-align: center;
+margin-bottom: 1px;
+}
+
+header a:hover, header a:active {
+background-color: black;
+color: red;
+}
