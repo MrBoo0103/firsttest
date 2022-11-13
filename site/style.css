@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	background-color: black;
 	font-family: Helvetica;
@@ -8,25 +12,32 @@ h1 {
 background-color : purple;
 color: white;
 }
-.black
-{
-	font-size: 130%;
-    color: yellow;
-    text-align: left;
-}
+
 #pic
 {
     background-color: purple;
     color: white;
     width: 500px;
 }
-p{
+#poster {
+    background-image:url('pic.jpg.jpg');
+    <body style="margin:0px; padding:0px;">
+
+
+}
+p {
 	color: white;
+	clear: left;
+    text-align: left;
+    padding: 10px;
+    position: relative;
 }
 header  {
 	list-style: none;
 	font-size: 130%;
-
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: relative;
 }
 header a:link,header a:visited {
 text-decoration: none;
@@ -37,9 +48,51 @@ display: block;
 width: 200px;
 text-align: center;
 margin-bottom: 1px;
+float: left;
+margin-top: 1px;
+margin-right: 10px;  
+position: relative;
 }
 
 header a:hover, header a:active {
 background-color: black;
 color: red;
+}
+
+.black
+{
+	font-size: 130%;
+    color: yellow;
+    text-align: left;
+    padding: 10px;
+    margin-top: 60px;
+    border: 2px solid orange;
+    position: relative;
+
+}
+
+
+
+@media (min-width: 500px) and (max-width:  1000px) {
+	header  {
+	list-style: none;
+	font-size: 130%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	}
+	header a:link,header a:visited {
+	width: 150px;
+	}
+	.black{
+		width: 600px;
+
+	}
+	#pic {
+		width: 500px;
+	}
+
+	#poster{
+		
+	}
 }
